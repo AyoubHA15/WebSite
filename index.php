@@ -10,16 +10,16 @@
 <body>
     <div class = "test">
         <h1>Server Info</h1>
-        <ul>
-            <?php foreach ($server as $name => $info): ?>
-                <li> 
-                    <strong><?php echo $name;?></strong>
-                </li>
-                <li> 
-                    <strong> <?php echo $info;?></strong>
-                </li>
-            <?php endforeach  ?>
-        </ul>
+            <ul>
+                <?php foreach ($server as $name => $info): ?>
+                    <li> 
+                        <strong><?php echo $name;?></strong>
+                    </li>
+                    <li> 
+                        <strong> <?php echo $info;?></strong>
+                    </li>
+                <?php endforeach;  ?>
+            </ul>
     </div>
     <div class = "test2"></div>
 </body>
